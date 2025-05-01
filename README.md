@@ -2,6 +2,8 @@
 
 A Snap Spectacles Lens built by a team of three for **LA Hacks 2025**. It helps you locate misplaced items in real time using object detection and Spatial Anchors.
 
+Video Demo: https://www.youtube.com/watch?v=XdDNxadDaeU
+
 ---
 
 ## 🧠 Concept
