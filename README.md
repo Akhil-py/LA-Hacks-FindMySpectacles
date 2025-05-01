@@ -1,5 +1,4 @@
 # LA-Hacks-FindMy-Spectacles
-# Snap Spectacles Lost-and-Found Lens
 
 A Snap Spectacles Lens built by a team of three for **LA Hacks 2025**. It helps you locate misplaced items in real time using object detection and Spatial Anchors.
 
@@ -9,11 +8,11 @@ A Snap Spectacles Lens built by a team of three for **LA Hacks 2025**. It helps 
 
 **Original idea:** continuously track your movement, build a 3D map of your environment, and record where you place objects. When you misplace something, simply ask your Spectacles and it will navigate you back to the exact spot.
 
-**Actual implementation:** instead of a full 3D reconstruction, we anchor each detected object in world space.  
-1. Tap to detect your target item.  
-2. The Lens finds it in your direct view.  
-3. It creates a Spatial Anchor on that object.  
-4. A real 3D arrow appears, pointing you straight to it.
+**Actual implementation:** you ask your Spectacles “Where did I lose my ___?” and then carry on normally. As soon as your missing item comes into view, the Lens automatically:
+1. Places a Spatial Anchor on the detected object  
+2. Spawns a true 3D arrow in your field of view  
+3. Points you straight to your lost item
+Once the lens finds an object, it remembers its location in a 3D map, so you can turn around and go to a different room, and the arrow will still point towards its last known location.
 
 ---
 
