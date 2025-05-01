@@ -1,0 +1,22 @@
+- !<NativePackageDescriptor/5e9a15f4-e76b-479c-915a-5ac2c2161e25>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 7
+    patch: 2
+    build: 25030805
+    type: Unset
+  Description: Provide a hand gesture recognition and triggering system, and custom feedback with behavior script based on currently detected hand gesture in screen.
+  SvgIcon: ""
+  InternalVersion: 0
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  ExportUid: 35334644-532f-4eae-9f2a-6deed2bee562
+  ComponentUid: 36b6fbe8-3a63-43d9-b6f1-0bf64094b337
+  CurrentVisibility: Locked
+  MaxVisibility: Editable
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  coreVersion: 301
+  clientVersion: 13.3000002
+  UpdateCheckpoint: 55

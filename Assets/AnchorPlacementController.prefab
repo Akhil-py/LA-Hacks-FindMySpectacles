@@ -1,0 +1,41 @@
+- !<ObjectPrefab/bfbdfdb5-d0d5-4895-b3b9-44ca2a14f042>
+  PackagePath: ""
+  objects:
+    - !<own> f3b6db6b-5cd4-41c8-97ed-afbd0b2e2934
+  LazyLoading: true
+  RetainAssets: true
+- !<ScriptComponent/8ab6e0b1-6e56-4174-80dd-be6a3b8a7a0a>
+  PrefabRemaps:
+    []
+  Name: AnchorPlacementController
+  Enabled: true
+  ScriptAsset: !<reference> f13de48c-52ab-430b-a55c-1e66edefa7db
+  ScriptInputsDefault:
+    td: true
+    prefab: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      anchorModule: !<MappingBased.AnchorModule> 17353ec2-d148-4d13-88d5-7b38e82b8e79
+      camera: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
+      td: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/f3b6db6b-5cd4-41c8-97ed-afbd0b2e2934>
+  PrefabRemaps:
+    []
+  Name: AnchorPlacementController
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8ab6e0b1-6e56-4174-80dd-be6a3b8a7a0a

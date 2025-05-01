@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    08af6149-913b-4f39-9009-94732ba04505: 84f271b8-0564-478e-8ae5-0d66b93fc5f8/9ac1ec166d7d43c5a6e4496caf5a7d01/Data/Connector.mesh
+  Assets:
+    - !<FileMesh/08af6149-913b-4f39-9009-94732ba04505>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 44
+        Vertices: 50
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 0.133273, y: 0.133273, z: 2.000000}
+  SourceHash: 9ac1ec166d7d43c5a6e4496caf5a7d01
+  FileHash: 1f6e5b64b9ce72fefb5f692493a0268c
+  NativePackageItems:
+    []

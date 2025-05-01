@@ -1,0 +1,63 @@
+- !<AssetImportMetadata/cd34f71f-1db3-47b2-a580-56bc713eff2d>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 64924ddd-5cb7-4be7-98f8-51fd204fdd03
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 64924ddd-5cb7-4be7-98f8-51fd204fdd03
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 8789a39d-af6e-4ccc-84a7-0890a27a4434
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/7443ab92-bf87-430c-a52d-e6597f1bc79f>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9169904f-f034-4745-9aa9-ddec52f00aeb
+  Mesh: !<reference> f9cbb215-49b4-426c-acbf-49eae075b350
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/8789a39d-af6e-4ccc-84a7-0890a27a4434>
+  SourceRemaps:
+    - 38c0ad37-c3df-4432-a1e4-acd7110f8607: 7443ab92-bf87-430c-a52d-e6597f1bc79f
+    - 64924ddd-5cb7-4be7-98f8-51fd204fdd03: b974b820-19dd-4223-96d6-95c8fa02c04e
+    - a2a26395-ccec-4a72-b834-9c8c41e3d386: a120e28d-33c8-4d1f-a45e-6be13bbf23c4
+  SourceState: !<own> b974b820-19dd-4223-96d6-95c8fa02c04e
+- !<SceneObject/a120e28d-33c8-4d1f-a45e-6be13bbf23c4>
+  PrefabRemaps:
+    []
+  Name: Cone
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 17.512659, y: -17.152016, z: 0.000000}
+    rotation: {x: -45.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7443ab92-bf87-430c-a52d-e6597f1bc79f
+- !<ObjectPrefab/b974b820-19dd-4223-96d6-95c8fa02c04e>
+  PackagePath: ""
+  objects:
+    - !<own> a120e28d-33c8-4d1f-a45e-6be13bbf23c4
+  LazyLoading: false
+  RetainAssets: true

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    721f1e1b-19a5-4139-96aa-63e243fc727b: 271007dc-35b3-4099-8a8d-a3c10b11ddee/2ec6002df1b1d2a5c11ce330f301cf05/Data/RainDrop-07.mp3
+  Assets:
+    - !<FileAudioTrack/721f1e1b-19a5-4139-96aa-63e243fc727b>
+      PackagePath: ""
+  SourceHash: 2ec6002df1b1d2a5c11ce330f301cf05
+  FileHash: 6f296e91fcc73e3332f28e48d185683e
+  NativePackageItems:
+    []

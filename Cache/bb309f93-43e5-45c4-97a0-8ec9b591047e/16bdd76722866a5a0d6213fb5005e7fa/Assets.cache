@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    94d06440-c6b3-4190-96e2-1493694d9e9c: bb309f93-43e5-45c4-97a0-8ec9b591047e/16bdd76722866a5a0d6213fb5005e7fa/Data/RainDrop-09.mp3
+  Assets:
+    - !<FileAudioTrack/94d06440-c6b3-4190-96e2-1493694d9e9c>
+      PackagePath: ""
+  SourceHash: 16bdd76722866a5a0d6213fb5005e7fa
+  FileHash: 7bad28c49d50cccd153eed0c0b51241d
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    5ad4bcb3-bd21-469f-b3c8-5ae523834ca3: 63f56a05-46c7-4aa4-a3b1-85e04c6c1ecc/96e4cbe6683e27a225bababb351f997f/Data/RainDrop-03.mp3
+  Assets:
+    - !<FileAudioTrack/5ad4bcb3-bd21-469f-b3c8-5ae523834ca3>
+      PackagePath: ""
+  SourceHash: 96e4cbe6683e27a225bababb351f997f
+  FileHash: 9b2a232bc48d46568ac7094048591859
+  NativePackageItems:
+    []

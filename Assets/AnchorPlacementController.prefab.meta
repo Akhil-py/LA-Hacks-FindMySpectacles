@@ -1,0 +1,63 @@
+- !<AssetImportMetadata/e1d5357f-4936-4006-9a20-5767e40c09dd>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> bfbdfdb5-d0d5-4895-b3b9-44ca2a14f042
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> bfbdfdb5-d0d5-4895-b3b9-44ca2a14f042
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> c095ce67-d7a5-48ad-a907-ac2ea4f4ff51
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/08adfb8e-0a49-4891-a9aa-5bf7d48cff33>
+  PrefabRemaps:
+    []
+  Name: AnchorPlacementController
+  Enabled: true
+  ScriptAsset: !<reference> f13de48c-52ab-430b-a55c-1e66edefa7db
+  ScriptInputsDefault:
+    td: true
+    prefab: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      anchorModule: !<MappingBased.AnchorModule> 17353ec2-d148-4d13-88d5-7b38e82b8e79
+      camera: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
+      td: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/0ad5aea2-1ed3-4540-84f3-813e7f4389d2>
+  PrefabRemaps:
+    []
+  Name: AnchorPlacementController
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 08adfb8e-0a49-4891-a9aa-5bf7d48cff33
+- !<ObjectPrefab/7aa55283-2090-4a74-9d07-c4fde8e4cada>
+  PackagePath: ""
+  objects:
+    - !<own> 0ad5aea2-1ed3-4540-84f3-813e7f4389d2
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/c095ce67-d7a5-48ad-a907-ac2ea4f4ff51>
+  SourceRemaps:
+    - 8ab6e0b1-6e56-4174-80dd-be6a3b8a7a0a: 08adfb8e-0a49-4891-a9aa-5bf7d48cff33
+    - bfbdfdb5-d0d5-4895-b3b9-44ca2a14f042: 7aa55283-2090-4a74-9d07-c4fde8e4cada
+    - f3b6db6b-5cd4-41c8-97ed-afbd0b2e2934: 0ad5aea2-1ed3-4540-84f3-813e7f4389d2
+  SourceState: !<own> 7aa55283-2090-4a74-9d07-c4fde8e4cada
