@@ -12,6 +12,7 @@ A Snap Spectacles Lens built by a team of three for **LA Hacks 2025**. It helps 
 1. Places a Spatial Anchor on the detected object  
 2. Spawns a true 3D arrow in your field of view  
 3. Points you straight to your lost item
+
 Once the lens finds an object, it remembers its location in a 3D map, so you can turn around and go to a different room, and the arrow will still point towards its last known location.
 
 ---
